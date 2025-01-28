@@ -12,9 +12,9 @@
 //             break;
 //         default:
 //             console.log(a/b);
-            
+
 //         }
-      
+
 
 
 
@@ -73,12 +73,29 @@
 
 
 
-function multiplication(){
-    let result;
-    let table=prompt("quelle table souhaitez-vous?");
-    let multiplicateur=prompt("quelle multiplicateur souhaitez-vous?");
-    for(let i=1;i<=multiplicateur;i++){
-        result=i*table
-    console.log(i+" x "+table+" = "+result)}
+// function multiplication(){
+//     let result;
+//     let table=prompt("quelle table souhaitez-vous?");
+//     let multiplicateur=prompt("quelle multiplicateur souhaitez-vous?");
+//     for(let i=1;i<=multiplicateur;i++){
+//         result=i*table
+//     console.log(i+" x "+table+" = "+result)}
 
-}console.log(multiplication())
+// }console.log(multiplication())
+
+// const fruits = ["clementine", "ananas", "pommes"]
+// console.log(fruits)
+// const primeurs = {
+//     fruits: ["clementine", "ananas", "pommes"],
+//     legumes: ["courgettes", "concombres", "salades"]
+// }
+// console.log(primeurs.legumes[2])
+
+function gererPanier(){
+let panier={articles,quantité}
+
+
+
+
+
+}
