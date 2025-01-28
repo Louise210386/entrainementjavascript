@@ -36,23 +36,49 @@
 //     console.log(result)
 // }
 
-function calculatrice(){
-    let nb1=prompt("saisissez votre premier chiffre");
-    let nb2=prompt("saisissez votre deuxieme chiffre")
-    let operateur=prompt ("entrez le symbole de l'operation que vous souhaitez faire,+-*/")
-    switch(operateur){
-        case"+":
-        console.log(nb1+nb2);
-        break;
-        case"-":
-        console.log(nb1-nb2);
-        break;
-        case"x":
-        console.log(nb1*nb2)
-        break;
-        default:console.log(nb1/nb2)
-    }
+// function calculatrice(){
+//     let nb1=prompt("saisissez votre premier chiffre");
+//     let nb2=prompt("saisissez votre deuxieme chiffre")
+//     let operateur=prompt ("entrez le symbole de l'operation que vous souhaitez faire,+-*/")
+//     switch(operateur){
+//         case"+":
+//         console.log(nb1+nb2);
+//         break;
+//         case"-":
+//         console.log(nb1-nb2);
+//         break;
+//         case"x":
+//         console.log(nb1*nb2)
+//         break;
+//         default:console.log(nb1/nb2)
+//     }
 
-}
+// }
 
-console.log(calculatrice(40,10,"+"))
+// console.log(calculatrice(40,10,"+"))
+
+// function multiplication(a){
+//     let result;
+//     for(let i=1;i<10;i++){
+//         result=i*a
+//     console.log(i+" x "+a+" = "+result)}
+
+// }console.log(multiplication(2))
+
+// const age="22";
+// const prenom= "louise";
+// console.log("bonjour je m'appelle "+prenom+"  et j'ai "+age+" ans")
+
+
+
+
+
+function multiplication(){
+    let result;
+    let table=prompt("quelle table souhaitez-vous?");
+    let multiplicateur=prompt("quelle multiplicateur souhaitez-vous?");
+    for(let i=1;i<=multiplicateur;i++){
+        result=i*table
+    console.log(i+" x "+table+" = "+result)}
+
+}console.log(multiplication())
